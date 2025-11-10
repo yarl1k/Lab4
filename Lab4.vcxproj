@@ -125,10 +125,13 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClInclude Include="MyStruct.h" />
+    <ClInclude Include="Operations.h" />
     <ClInclude Include="Timer.h" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="main.cpp" />
     <ClCompile Include="MyStruct.cpp" />
+    <ClCompile Include="Operations.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
